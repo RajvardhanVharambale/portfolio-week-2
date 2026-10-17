@@ -1,46 +1,87 @@
-# Personal Portfolio Website
+# Personal Portfolio Website — Week 2
 
-A personal portfolio website built using HTML and CSS to showcase my background, technical skills, projects, education, and extracurricular experiences. This project is part of my Web Development Internship — Week 2: CSS Styling.
+A responsive personal portfolio website styled using **CSS3**, featuring a charcoal-and-amber color palette, clean typography, interactive hover effects, and responsive layouts.
 
-## 1. Project Overview
+## 🌐 Live Demo
 
-The portfolio presents my academic journey, technical interests, projects, and involvement in college and community activities through a clean, responsive, and professional interface.
+**Live Website:** [View My Portfolio](https://rajvardhanvharambale.github.io/portfolio-week-2/)
 
-The design uses a **Charcoal and Amber** color scheme, readable typography, structured layouts, interactive hover effects, and responsive styling for different screen sizes.
+**GitHub Repository:** [portfolio-week-2](https://github.com/RajvardhanVharambale/portfolio-week-2)
 
-## 2. Objectives
+---
 
-- Understand and apply CSS styling concepts.
-- Create and use an external stylesheet.
-- Apply selectors, colors, typography, borders, margins, and padding.
-- Use the CSS box model, Flexbox, and Grid.
-- Add hover effects and visual transitions.
-- Create a responsive layout using CSS media queries.
-- Style portfolio sections, project cards, images, and form elements.
-- Test the website and document the results.
+## 📌 Project Overview
 
-## 3. Technologies Used
+This project is part of my Web Development Internship — Week 2 task. The objective was to enhance my existing HTML portfolio by applying CSS styling techniques and creating a clean, visually consistent, and responsive user interface.
 
-- **HTML5:** Website structure and content.
-- **CSS3:** Styling, layouts, hover effects, transitions, and responsive design.
-- **JavaScript:** Existing basic functionality for mobile navigation, scroll-reveal animations, the contact email draft, and the footer year.
-- **Google Fonts:** DM Sans and Manrope typography.
-- **Visual Studio Code:** Code editor.
-- **Google Chrome:** Browser testing.
+The website presents my introduction, skills, projects, education, experience, and contact information in an organized layout.
 
-No CSS framework is required for this project.
+## 🎯 Objectives
 
-## 4. Project Structure
+- Apply CSS using an external stylesheet.
+- Use different CSS selectors and properties.
+- Implement a consistent color scheme and typography.
+- Understand the CSS box model, spacing, and positioning.
+- Create layouts using Flexbox and CSS Grid.
+- Add hover effects and transitions to interactive elements.
+- Make the website responsive across desktop, tablet, and mobile screens.
+- Test the website and document its structure and features.
+
+## 🛠️ Technologies Used
+
+- **HTML5** — Website structure and content.
+- **CSS3** — Styling, layouts, animations, and responsive design.
+- **JavaScript** — Basic existing interactions, including mobile navigation and contact form behavior.
+- **Google Fonts** — Typography.
+- **GitHub Pages** — Website hosting and deployment.
+
+## 🎨 Design and Styling
+
+The website uses a **Charcoal + Amber** color palette to maintain a professional and minimal appearance.
+
+| Color | Hex Code | Usage |
+|---|---|---|
+| Charcoal | `#252525` | Primary dark backgrounds |
+| Amber | `#E3A542` | Accent colors and highlights |
+| Warm White | `#F4F1EA` | Light text and surfaces |
+| Muted Sand | `#D5C6A0` | Secondary accents |
+| White | `#FFFFFF` | Contrast and readable content |
+
+### CSS Concepts Implemented
+
+- External stylesheet using `style.css`.
+- Element, class, and pseudo-class selectors.
+- Typography, colors, backgrounds, borders, margins, and padding.
+- CSS box model for spacing and element sizing.
+- Flexbox and CSS Grid for layout.
+- Hover effects and transitions.
+- Media queries for responsive design.
+- Styling for images, cards, navigation, and form elements.
+
+## ✨ Website Sections
+
+- **Home:** Introduction and portfolio overview.
+- **About:** Personal and professional introduction.
+- **Skills:** Technical skills and areas of knowledge.
+- **Projects:** Selected development projects.
+- **Education:** Academic background.
+- **Experience:** College activities, volunteering, and team responsibilities.
+- **Contact:** Contact information and contact form interface.
+
+## 📁 Project Structure
 
 ```text
-portfolio/
+portfolio-week-2/
+│
 ├── index.html
 ├── style.css
 ├── README.md
+│
 ├── images/
 │   ├── profile.jpg
 │   ├── project-1.jpg
 │   └── project-2.jpg
+│
 └── screenshots/
     ├── desktop-home.png
     ├── projects.png
@@ -48,132 +89,79 @@ portfolio/
     └── mobile-view.png
 ```
 
-**Note:** The screenshot files should be added after capturing the actual website. Keep the image filenames consistent with the paths used in `index.html`.
+*Note: The image and screenshot filenames above represent the intended structure. Keep only filenames that actually exist in your repository.*
 
-## 5. Website Sections
+## 🚀 How to Run Locally
 
-### Home
-Introduces me as a Computer Science Engineering student, highlights my name and interests, and provides navigation to other sections.
+1. Clone the repository:
 
-### About
-Describes my academic background, interest in technology, and approach to learning and software development.
-
-### Skills
-Displays programming languages, web development technologies, tools, and professional skills.
-
-### Projects
-Showcases selected projects, including HandyConnect, Image Dehazing, and Advanced Text Editor.
-
-### Education
-Presents my academic qualifications and educational timeline.
-
-### Experience and Activities
-Highlights four experiences:
-- Placement Coordinator — Training and Placement Cell
-- Operations Team Member — Prarambh Development Cell
-- Volunteer — SRIJAN DIPEX 2024
-- NSS Volunteer
-
-### Contact
-Provides contact information links and a form that prepares an email draft through the user's default email application.
-
-## 6. CSS Implementation
-
-The external stylesheet, `style.css`, contains the website's visual design and layout rules.
-
-### Color Scheme
-
-| Color | Hex Code | Purpose |
-|---|---|---|
-| Charcoal | `#252525` | Main background |
-| Amber | `#E3A542` | Highlights and accents |
-| Warm Off-White | `#F4F1EA` | Main text |
-| Muted Sand | `#D5C6A0` | Secondary accents |
-| White | `#FFFFFF` | Supporting contrast |
-
-### CSS Concepts Applied
-
-- **Selectors:** Element, class, and pseudo-class selectors.
-- **Typography:** Font families, font sizes, weights, and line heights.
-- **Box Model:** Margins, padding, borders, and sizing.
-- **Backgrounds:** Background colors and gradients.
-- **Flexbox:** Navigation, buttons, tags, and footer layout.
-- **CSS Grid:** Hero, skills, projects, and experience layouts.
-- **Hover Effects:** Interactive styling for links, buttons, and cards.
-- **Transitions:** Smooth visual changes.
-- **Media Queries:** Responsive layouts for tablets and mobile screens.
-- **Accessibility:** Visible keyboard focus and reduced-motion support.
-
-## 7. Setup Instructions
-
-1. Install Visual Studio Code and a modern web browser.
-2. Open the project folder in Visual Studio Code.
-3. Verify that `index.html`, `style.css`, and the `images/` directory are present.
-4. Confirm that the HTML file links to the external stylesheet:
-
-   ```html
-   <link rel="stylesheet" href="style.css">
+   ```bash
+   git clone https://github.com/RajvardhanVharambale/portfolio-week-2.git
    ```
 
-5. Open `index.html` directly in a browser, or use the Live Server extension in Visual Studio Code.
-6. If using Live Server, right-click `index.html` and select **Open with Live Server**.
-7. Resize the browser or use the browser's device toolbar to test responsive behavior.
+2. Open the downloaded project folder.
 
-An internet connection is required to load Google Fonts. Local fallback fonts are available if the external fonts cannot be loaded.
+3. Open `index.html` in a web browser, or use the Live Server extension in Visual Studio Code.
 
-## 8. Testing and Verification
+No additional packages or build tools are required for the static portfolio.
 
-Complete the following checks before submission.
+## 📱 Responsive Design
 
-| Test Case | Expected Result | Status |
-|---|---|---|
-| Open `index.html` | Website loads successfully | Pending verification |
-| Load external CSS | Charcoal and amber styling appears | Pending verification |
-| Check images | Profile and project images display correctly | Pending verification |
-| Navigate between sections | Navigation links reach the correct sections | Pending verification |
-| Hover over buttons and cards | Styling transitions appear | Pending verification |
-| Open mobile navigation | Menu opens and closes correctly | Pending verification |
-| Check tablet layout | Content adapts to the available width | Pending verification |
-| Check mobile layout | Cards stack and content remains readable | Pending verification |
-| Check contact form | Required fields are validated by the browser | Pending verification |
-| Submit contact form | An email draft is prepared when supported | Pending verification |
-| Check browser console | No unexpected errors appear | Pending verification |
+The website uses CSS media queries and flexible layouts to adapt its presentation to different screen sizes.
 
-Update the test statuses after running each test. Save genuine screenshots of the tested website in the `screenshots/` directory.
+Responsive testing should cover:
 
-## 9. Screenshots
+- Desktop screens.
+- Tablet screens.
+- Mobile screens.
 
-Add the following screenshots after testing:
+## 🧪 Testing and Verification
 
-- `screenshots/desktop-home.png` — Desktop home section.
-- `screenshots/projects.png` — Projects section.
-- `screenshots/experience.png` — Experience and activities section.
-- `screenshots/mobile-view.png` — Responsive mobile layout.
+The following checks should be completed before final submission.
 
-These screenshots provide visual evidence of the completed styling work.
+| Test | Expected Result |
+|---|---|
+| Homepage loading | The website opens successfully |
+| External CSS | `style.css` loads correctly |
+| Images | Existing image files display correctly |
+| Navigation | Navigation links lead to the intended sections |
+| Hover effects | Interactive elements respond to hovering |
+| Responsive layout | Content adapts to smaller screens |
+| Mobile navigation | The menu works on supported mobile layouts |
+| Contact form | Required-field validation and the intended contact behavior work |
+| GitHub Pages | The deployed website opens using the live link |
 
-## 10. Current Scope
+**Testing note:** Mark each test as passed only after verifying it in your browser.
 
-This project focuses on Week 2 of the Web Development Internship: CSS styling of an existing portfolio website.
+## 📸 Screenshots
 
-The work includes external CSS organization, typography, colors, layout, interactive hover styling, and responsive design. Existing basic JavaScript behavior is retained.
+Screenshots of the completed website can be stored in the `screenshots/` directory to document its appearance on desktop and mobile devices.
 
-Additional JavaScript features, extra website pages, and new backend functionality are outside the scope of this week's task.
+- Desktop homepage
+- Projects section
+- Experience section
+- Mobile layout
 
-## 11. Future Improvements
+## 📚 Learning Outcomes
 
-Potential improvements for later stages include enhanced form validation, additional interactive features, and further website enhancements as required by subsequent internship tasks.
+Through this task, I practiced separating HTML structure from CSS presentation, applying consistent design principles, building layouts with Flexbox and Grid, using responsive media queries, and preparing a website for public deployment.
 
-## 12. Author
+## 🔮 Future Improvements
 
-**Rajvardhan Pradeep Vharambale**
+- Further refine accessibility and keyboard navigation.
+- Improve performance and optimize images.
+- Continue enhancing the portfolio as I learn additional web development concepts.
 
-B.Tech — Computer Science Engineering  
-D. Y. Patil College of Engineering, Kolhapur
+## 👨‍💻 Author
 
-- **GitHub:** https://github.com/rajvardhanvharambale
-- **Portfolio:** https://rajvardhanvharambale.github.io/rajvardhan-portfolio/
+**Rajvardhan Vharambale**
+
+B.Tech Computer Science and Engineering Student
+
+**Portfolio:** [Visit Website](https://rajvardhanvharambale.github.io/portfolio-week-2/)
+
+**GitHub:** [RajvardhanVharambale](https://github.com/RajvardhanVharambale)
 
 ---
 
-*Developed as part of the Web Development Internship — Week 2: CSS Styling.*
+*Web Development Internship — Week 2: CSS Styling and Responsive Design*
